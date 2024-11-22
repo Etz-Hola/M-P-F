@@ -9,7 +9,7 @@ function Header() {
   };
 
   return (
-    <header className="bg-gray-800 text-white border border-gray-600 rounded-md mx-6 my-3 p-3">
+    <header className="bg-gray-800 text-white border border-gray-600 rounded-3xl mx-6 p-3 sticky top-0 z-50 shadow-lg">
       <div className="flex items-center justify-between">
         {/* Left Side */}
         <div className="flex space-x-6">
@@ -18,10 +18,10 @@ function Header() {
           <a href="#portfolio" className="hover:underline">Portfolio</a>
         </div>
 
-        {/* Center */}
+        {/* Center
         <div className="hidden sm:block w-12 h-12 border border-gray-500 rounded-full">
           {/* Placeholder for Image */}
-        </div>
+        {/* </div> */} *
 
         {/* Right Side */}
         <div className="hidden sm:flex space-x-6">
